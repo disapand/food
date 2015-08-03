@@ -1,0 +1,419 @@
+@import url(../css/animate.css);
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/style.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 11, ../sass/style.scss */
+.contanier {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 16, ../sass/style.scss */
+body, html, img, .contanier {
+  width: 100%;
+}
+
+/* line 20, ../sass/style.scss */
+.p1 {
+  background: url('../img/p1/bg.jpg?1437555860') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}
+/* line 24, ../sass/style.scss */
+#p1_font1 {
+  position: absolute;
+  top: 77%;
+  left: 0;
+}
+
+/* line 28, ../sass/style.scss */
+#p1_font2 {
+  position: absolute;
+  top: 84%;
+  left: 0;
+}
+
+/* line 36, ../sass/style.scss */
+.p2 {
+  background: url('../img/p2/bg.jpg?1437556074') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 8;
+}
+
+/* line 42, ../sass/style.scss */
+.p3 {
+  background: url('../img/p3/bg.jpg?1437556184') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 7;
+}
+/* line 46, ../sass/style.scss */
+#p3_font1 {
+  position: absolute;
+  top: 28%;
+  left: 85%;
+  width: 8%;
+}
+
+/* line 51, ../sass/style.scss */
+#p3_font2 {
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  width: 8%;
+}
+
+/* line 55, ../sass/style.scss */
+#p3_border {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+
+/* line 63, ../sass/style.scss */
+.p4 {
+  background: url('../img/p4/bg.jpg?1437556368') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 6;
+}
+/* line 67, ../sass/style.scss */
+#p4_font1 {
+  position: absolute;
+  top: 80%;
+  left: 0;
+}
+
+/* line 75, ../sass/style.scss */
+.p5 {
+  background: url('../img/p5/bg.jpg?1437557433') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+/* line 79, ../sass/style.scss */
+#p5_font {
+  position: absolute;
+  top: 44%;
+  left: 64%;
+  width: 36%;
+  z-index: 2;
+}
+
+/* line 84, ../sass/style.scss */
+#p5_font_bg {
+  position: absolute;
+  top: 44%;
+  left: 64%;
+  width: 36%;
+}
+
+/* line 88, ../sass/style.scss */
+#p5_#vagetable_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 91, ../sass/style.scss */
+#p5_vagetable_2 {
+  position: absolute;
+  top: 44%;
+  left: 0;
+  width: 65%;
+}
+
+/* line 95, ../sass/style.scss */
+#p5_vagetable_3 {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 65%;
+}
+
+/* line 104, ../sass/style.scss */
+.p6 {
+  background: url('../img/p6/bg.jpg?1437557576') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+}
+/* line 108, ../sass/style.scss */
+#p6_font {
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  width: 80%;
+}
+
+/* line 112, ../sass/style.scss */
+#p6_circle {
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  width: 5%;
+}
+
+/* line 121, ../sass/style.scss */
+.p7 {
+  background: url('../img/p7/bg.jpg?1437557844') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+/* line 125, ../sass/style.scss */
+#p7_font {
+  position: absolute;
+  top: 0;
+  left: 18%;
+  width: 65%;
+  z-index: 2;
+}
+
+/* line 130, ../sass/style.scss */
+#p7_bg {
+  position: absolute;
+  top: 0;
+  left: 18%;
+  width: 65%;
+}
+
+/* line 139, ../sass/style.scss */
+.p8 {
+  background: url('../img/p8/bg.jpg?1437557968') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+/* line 143, ../sass/style.scss */
+#p8_font {
+  position: absolute;
+  top: 9%;
+  left: 15%;
+  width: 75%;
+}
+
+/* line 147, ../sass/style.scss */
+#p8_border {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+
+/* line 155, ../sass/style.scss */
+.p9 {
+  background: url('../img/p9/bg.jpg?1437558117') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/* line 159, ../sass/style.scss */
+#p9_logo {
+  position: absolute;
+  top: 14%;
+  left: 23%;
+  width: 54%;
+}
+
+/* line 163, ../sass/style.scss */
+#p9_code {
+  position: absolute;
+  top: 64%;
+  left: 30%;
+  width: 40%;
+}
+
+/* line 167, ../sass/style.scss */
+#p9_font_1 {
+  position: absolute;
+  top: 69%;
+  left: 22%;
+  width: 6%;
+}
+
+/* line 171, ../sass/style.scss */
+#p9_font_2 {
+  position: absolute;
+  top: 69%;
+  left: 71%;
+  width: 6%;
+}
+
+/* line 175, ../sass/style.scss */
+#p9_font_3 {
+  position: absolute;
+  top: 88%;
+  left: 33%;
+  width: 32%;
+}
+
+/* line 179, ../sass/style.scss */
+#p9_line {
+  position: absolute;
+  top: 59%;
+  left: 0;
+}
+
+/* line 185, ../sass/style.scss */
+.music_player {
+  position: absolute;
+  top: 3%;
+  left: 85%;
+  overflow: hidden;
+}
+/* line 190, ../sass/style.scss */
+#btn_music {
+  background: url('../img/soundlist.png?1437359842') no-repeat center;
+  background-position: -30px;
+  background-size: cover;
+  height: 31px;
+  width: 30px;
+  -moz-transition: background-position 1s;
+  -o-transition: background-position 1s;
+  -webkit-transition: background-position 1s;
+  transition: background-position 1s;
+}
+
+/* line 201, ../sass/style.scss */
+#p1_font1,
+#p1_font2,
+#p2_font1,
+#p3_font1,
+#p3_font2,
+#p3_border,
+#p4_font1,
+#p5_font,
+#p5_font_bg,
+#p5_vagetable_1,
+#p5_vagetable_2,
+#p5_vagetable_3,
+#p6_font,
+#p6_circle,
+#p7_font,
+#p7_bg,
+#p8_font,
+#p8_border,
+#p9_logo,
+#p9_code,
+#p9_font_1,
+#p9_font_2,
+#p9_font_3,
+#p9_line {
+  display: none;
+}
+
+/* line 226, ../sass/style.scss */
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8,
+.p9 {
+  position: absolute;
+  top: 0;
+  -moz-transition: top 1s;
+  -o-transition: top 1s;
+  -webkit-transition: top 1s;
+  transition: top 1s;
+}
+
+/* line 240, ../sass/style.scss */
+.next_page {
+  position: absolute;
+  bottom: 3%;
+  text-align: center;
+  width: 100%;
+}
+/* line 247, ../sass/style.scss */
+#next_page {
+  width: 10%;
+  -moz-animation: slideOutDown 1s linear infinite;
+  -webkit-animation: slideOutDown 1s linear infinite;
+  animation: slideOutDown 1s linear infinite;
+}
+
+/* line 254, ../sass/style.scss */
+.music_player,
+.next_page {
+  z-index: 99;
+}

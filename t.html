@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.wipetouch.js"></script>
+</head>
+<body>
+	<div class="demo" style="width: 200px; height: 200px; border: 1px solid #ccc;">
+		
+	</div>
+</body>
+<script>
+$(function () {
+	$("body").on('touchmove', function(event) {
+		event.preventDefault();
+	});
+	$('.demo').wipetouch( {
+		wipeDown: function (result) {
+			alert('down');
+		},
+		wipeUp: function (result) {
+			alert('up');
+		}
+	} );
+} );
+</script>
+</html>

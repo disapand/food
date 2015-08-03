@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html, .container, .swiper-wrapper, .swiper-slid {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	overflow: hidden;
+}
+
+.swiper-slide {
+	position: relative;
+}
+
+.swiper-slide img {
+	opacity: 0;
+}
+
+.list1 {
+	background: url(../img/p1/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list2 {
+	background: url(../img/p2/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list3 {
+	background: url(../img/p3/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list4 {
+	background: url(../img/p4/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list5 {
+	background: url(../img/p5/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list6 {
+	background: url(../img/p6/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list7 {
+	background: url(../img/p7/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list8 {
+	background: url(../img/p8/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.list9 {
+	background: url(../img/p9/bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+img[id*="font"] {
+	position: absolute;
+	width: 100%;
+}
+
+#font1_1 {
+	top: 76%;
+}
+
+#font1_2 {
+	top: 84%;
+}
+
+#p3_border {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+#font4 {
+	bottom: 0;
+}
+
+#font5 {
+	bottom: 0;
+	z-index: 2;
+}
+
+#p5_1 {
+	width: 100%;
+}
+
+#p5_2 {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#p6_circle {
+	position: absolute;
+	top: 6%;
+	left: 25%; 
+	width: 5%;
+}
+
+#font7 {
+	left: 15%;
+	z-index: 1;
+	width: 70%;
+}
+
+#font7_bg {
+	left: 15%;
+	width: 70%;
+}
+
+#font8 {
+	top: 50px;
+	left: 12.5%;
+	width: 75%;
+}
+
+#p8_border {
+	position: absolute;
+	width: 100%;
+}
+
+
+#p9_logo {
+	position: absolute;
+	top: 14%;
+	left: 25%;
+	width: 50%;
+}
+
+#p9_footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+.music_player {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+}
+
+.btn_play {
+	width: 30px;
+	height: 31px;
+	background: url(../img/soundlist.png) no-repeat center;
+	background-position: -30px;
+	-webkit-transition: background-position 1s;
+	transition: background-position 1s;
+}
+
+.btn_up {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	bottom: 50px;
+	background: url(../img/arrow.png) no-repeat center ;
+	z-index: 99;
+	opacity: 0;
+	-webkit-animation: slideInUp 1s both infinite;
+	display: none;
+}
+
+.cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: .9;
+	z-index: 98;
+}
+
+.loader-inner {
+	position: absolute;
+	top: 50%;
+	margin-left: 50%;
+}

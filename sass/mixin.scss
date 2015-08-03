@@ -1,0 +1,18 @@
+@mixin pos ($top: 0, $left: 0) {
+	position: absolute;
+	top: $top + 0px;
+	left: $left + 0px;
+}
+
+@mixin pos_percent($top: 0, $left: 0) {
+	position: absolute;
+	top: $top;
+	left: $left;
+}
+
+@mixin bg-img ( $img ) {
+	background: image-url($img) no-repeat center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}

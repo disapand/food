@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh_CN">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=dege">
+	<title>致匠心</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link type="text/css" rel="stylesheet" href="css/animate.css"/>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.wipetouch.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+<div class="contanier">
+	<div class="swiper-wrapper">
+		<div class="p1 swiper-slide">
+			<img src="img/p1/font_03.png" id="p1_font1">
+			<img src="img/p1/font_07.png" id="p1_font2">
+		</div>
+		<div class="p2 swiper-slide">
+			<img src="img/p2/font_01.png" alt="" id="p2_font1">
+		</div>
+		<div class="p3 swiper-slide">
+			<img src="img/p3/font_03.png" alt="" id="p3_font1">
+			<img src="img/p3/font_06.png" alt="" id="p3_font2">
+			<img src="img/p3/border.png" alt="" id="p3_border">
+		</div>
+		<div class="p4 swiper-slide">
+			<img src="img/p4/font.png" alt="" id="p4_font1">
+		</div>
+		<div class="p5 swiper-slide">
+			<img src="img/p5/font_03.png" alt="" id="p5_font">
+			<img src="img/p5/font_bg.png" alt="" id="p5_font_bg">
+			<img src="img/p5/vagetable_1.png" alt="" id="p5_vagetable_1">
+			<img src="img/p5/vegetable_2.png" alt="" id="p5_vagetable_2">
+			<img src="img/p5/vegetable_3.png" alt="" id="p5_vagetable_3">
+		</div>
+		<div class="p6 swiper-slide">
+			<img src="img/p6/font_03.png" alt="" id="p6_font">
+			<img src="img/p6/circle_03.png" alt="" id="p6_circle">
+		</div>
+		<div class="p7 swiper-slide">
+			<img src="img/p7/font_02.png" alt="" id="p7_font">
+			<img src="img/p7/font_bg_02.png" alt="" id="p7_bg">
+		</div>
+		<div class="p8 swiper-slide">
+			<img src="img/p8/font_03.png" alt="" id="p8_font">
+			<img src="img/p8/border.png" alt="" id="p8_border">
+		</div>
+		<div class="p9 swiper-slide">
+			<img src="img/p9/logo.png" alt="" id="p9_logo">
+			<img src="img/p9/code.png" alt="" id="p9_code">
+			<img src="img/p9/font_13.png" alt="" id="p9_font_1">
+			<img src="img/p9/font_16.png" alt="" id="p9_font_2">
+			<img src="img/p9/font_22.png" alt="" id="p9_font_3">
+			<img src="img/p9/line.png" alt="" id="p9_line">
+		</div>
+	</div>
+</div>
+<div class="music_player">
+	<div id="btn_music"></div>
+	<audio id="bgmusic" src="http://hjysjtu.oss-cn-hangzhou.aliyuncs.com/b0.m4a" style="display: none;"></audio>
+	<audio id="voice" src="http://hjysjtu.oss-cn-hangzhou.aliyuncs.com/s0.m4a" autoplay style="display: none;"></audio>
+</div>
+<div class="next_page">
+	<img src="img/btn01_arrow.png" alt="" id="next_page">
+</div>
+
+<script>
+	var swiper = new Swiper('.contanier', {
+		deriction: 'vertical',
+		onSlideChangeStart: function ( swiper ) {
+			console.log(swiper.activeIndex);
+		}
+	} );
+</script>
+</body>
+</html>
